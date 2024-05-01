@@ -57,7 +57,7 @@ colores = sns.color_palette("Greens", n_colors=len(promedio_por_ubicacion))
 fig, ax = plt.subplots()
 sns.barplot(x='Location', y='Service Rating', data=promedio_por_ubicacion, palette=colores, ax=ax)
 plt.xticks(rotation=90)
-plt.xlabel('Ubicaciones de los restaurantes')
+plt.xlabel('Residencia de los Usuarios')
 plt.ylabel('Calificación Promedio')
 plt.title('Calificación Promedio del Servicio')
 
